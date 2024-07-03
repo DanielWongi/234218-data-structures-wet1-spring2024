@@ -38,7 +38,8 @@ This structure ensures that your project files and test directory are organized 
         }
         printTree(root.get(), 0);
     }
-
+```
+```
     void printTree(Node *node, int space) const
     {
         if (!node)
@@ -58,6 +59,7 @@ This structure ensures that your project files and test directory are organized 
 
         printTree(node->left.get(), space);
     }
+```
 - Replace yourRootMethod() with the method you use to get the root of your AVL tree.
 - Replace NodeType with the actual type of your node.
 - Replace node->yourRightChildMethod() with the method you use to get the right child of a node.
