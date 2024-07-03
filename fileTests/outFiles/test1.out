@@ -1,0 +1,38 @@
+add_ship: SUCCESS
+add_ship: SUCCESS
+remove_ship: SUCCESS
+get_cannons: SUCCESS, 10
+add_ship: SUCCESS
+add_pirate: SUCCESS
+add_pirate: SUCCESS
+add_pirate: SUCCESS
+add_pirate: SUCCESS
+add_ship: SUCCESS
+add_pirate: SUCCESS
+add_pirate: SUCCESS
+ships_battle: SUCCESS
+get_treasure: SUCCESS, 7
+get_treasure: SUCCESS, 6
+get_treasure: SUCCESS, 2
+get_treasure: SUCCESS, 4
+get_treasure: SUCCESS, -2
+get_treasure: SUCCESS, 6
+remove_pirate: SUCCESS
+treason: SUCCESS
+get_richest_pirate: SUCCESS, 7
+get_treasure: SUCCESS, 6
+update_pirate_treasure: SUCCESS
+get_treasure: SUCCESS, 10
+remove_pirate: FAILURE
+remove_ship: FAILURE
+remove_pirate: SUCCESS
+remove_ship: SUCCESS
+get_treasure: INVALID_INPUT
+get_treasure: INVALID_INPUT
+get_treasure: FAILURE
+get_cannons: INVALID_INPUT
+get_cannons: INVALID_INPUT
+get_cannons: FAILURE
+get_richest_pirate: INVALID_INPUT
+get_richest_pirate: INVALID_INPUT
+get_richest_pirate: FAILURE

@@ -1,0 +1,23 @@
+add_ship: SUCCESS
+add_ship: SUCCESS
+remove_ship: SUCCESS
+get_cannons: SUCCESS, 10
+add_ship: SUCCESS
+add_pirate: SUCCESS
+add_pirate: SUCCESS
+add_pirate: SUCCESS
+add_pirate: SUCCESS
+add_ship: SUCCESS
+add_pirate: SUCCESS
+add_pirate: SUCCESS
+ships_battle: SUCCESS
+get_treasure: SUCCESS, 7
+get_treasure: SUCCESS, 6
+get_treasure: SUCCESS, 2
+get_treasure: SUCCESS, 4
+get_treasure: SUCCESS, -2
+get_treasure: SUCCESS, 6
+remove_pirate: SUCCESS
+treason: SUCCESS
+remove_pirate: SUCCESS
+get_richest_pirate: SUCCESS, 6

@@ -1,0 +1,67 @@
+add_ship: INVALID_INPUT
+add_ship: INVALID_INPUT
+add_ship: INVALID_INPUT
+add_ship: SUCCESS
+add_ship: FAILURE
+remove_ship: INVALID_INPUT
+remove_ship: INVALID_INPUT
+remove_ship: FAILURE
+remove_ship: SUCCESS
+add_ship: SUCCESS
+add_pirate: INVALID_INPUT
+add_pirate: INVALID_INPUT
+add_pirate: INVALID_INPUT
+add_pirate: INVALID_INPUT
+add_pirate: FAILURE
+add_pirate: INVALID_INPUT
+add_pirate: INVALID_INPUT
+add_pirate: SUCCESS
+add_ship: SUCCESS
+add_pirate: FAILURE
+add_pirate: SUCCESS
+remove_pirate: INVALID_INPUT
+remove_pirate: INVALID_INPUT
+remove_pirate: FAILURE
+remove_pirate: SUCCESS
+add_pirate: SUCCESS
+update_pirate_treasure: INVALID_INPUT
+update_pirate_treasure: INVALID_INPUT
+update_pirate_treasure: FAILURE
+update_pirate_treasure: SUCCESS
+update_pirate_treasure: SUCCESS
+get_treasure: INVALID_INPUT
+get_treasure: INVALID_INPUT
+get_treasure: FAILURE
+get_treasure: SUCCESS, -1
+get_treasure: SUCCESS, -1
+get_cannons: INVALID_INPUT
+get_cannons: INVALID_INPUT
+get_cannons: FAILURE
+get_cannons: SUCCESS, 1
+get_cannons: SUCCESS, 2
+get_richest_pirate: INVALID_INPUT
+get_richest_pirate: INVALID_INPUT
+get_richest_pirate: FAILURE
+get_richest_pirate: SUCCESS, 1
+get_richest_pirate: SUCCESS, 2
+ships_battle: INVALID_INPUT
+ships_battle: INVALID_INPUT
+ships_battle: INVALID_INPUT
+ships_battle: INVALID_INPUT
+ships_battle: INVALID_INPUT
+ships_battle: FAILURE
+ships_battle: FAILURE
+ships_battle: SUCCESS
+get_treasure: SUCCESS, -1
+get_treasure: SUCCESS, -1
+treason: INVALID_INPUT
+treason: INVALID_INPUT
+treason: INVALID_INPUT
+treason: INVALID_INPUT
+treason: FAILURE
+treason: FAILURE
+add_ship: SUCCESS
+treason: FAILURE
+treason: SUCCESS
+treason: SUCCESS
+treason: INVALID_INPUT

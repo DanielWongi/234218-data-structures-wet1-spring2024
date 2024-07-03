@@ -1,0 +1,12 @@
+add_ship: SUCCESS
+get_richest_pirate: FAILURE
+add_pirate: SUCCESS
+add_pirate: SUCCESS
+add_pirate: SUCCESS
+add_pirate: SUCCESS
+get_richest_pirate: SUCCESS, 8
+remove_pirate: SUCCESS
+remove_pirate: SUCCESS
+remove_pirate: SUCCESS
+remove_pirate: SUCCESS
+get_richest_pirate: FAILURE

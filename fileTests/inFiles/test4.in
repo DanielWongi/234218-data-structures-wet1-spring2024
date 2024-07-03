@@ -1,0 +1,23 @@
+add_ship 6 6
+add_ship 234 10
+remove_ship 6
+get_cannons 234
+add_ship 1 3
+add_pirate 3 1 5
+add_pirate 4 1 4
+add_pirate 5 1 0
+add_pirate 6 1 2
+add_ship 2 12
+add_pirate 7 2 2
+add_pirate 8 2 10
+ships_battle 1 2
+get_treasure 3
+get_treasure 4
+get_treasure 5
+get_treasure 6
+get_treasure 7
+get_treasure 8
+remove_pirate 8
+treason 1 234
+remove_pirate 4
+get_richest_pirate 1

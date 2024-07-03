@@ -1,0 +1,14 @@
+add_ship 1 3
+add_pirate 5 1 0
+get_richest_pirate 1
+add_pirate 4 1 4
+get_richest_pirate 1
+add_pirate 6 1 2
+get_richest_pirate 1
+add_pirate 3 1 5
+get_richest_pirate 1
+remove_pirate 5
+remove_pirate 4
+remove_pirate 6
+remove_pirate 3
+get_richest_pirate 1
