@@ -22,43 +22,43 @@ This structure ensures that your project files and test directory are organized 
 2. Extract the zip file inside the `test` folder.
 3. Add the following function in the public section of your  `pirates24b1.h` file:
 ```bash
-    void print_avl_tree() const
-    {
-        ships.print();
-    }
+void print_avl_tree() const
+{
+    ships.print();
+}
 ```
 4. In your AVL Tree template, add the following functions to the public section. These functions will handle the printing of the tree: (must )
 ```bash
-    void print() const
+void print() const
+{
+    if (!root)
     {
-        if (!root)
-        {
-            std::cout << "Tree is empty.\n";
-            return;
-        }
-        printTree(root.get(), 0);
+        std::cout << "Tree is empty.\n";
+        return;
     }
+    printTree(root.get(), 0);
+}
 ```
 ```
-    void printTree(Node *node, int space) const
+void printTree(Node *node, int space) const
+{
+    if (!node)
+        return;
+
+    const int COUNT = 5;
+    space += COUNT;
+
+    printTree(node->right.get(), space);
+
+    std::cout << std::endl;
+    for (int i = COUNT; i < space; ++i)
     {
-        if (!node)
-            return;
-
-        const int COUNT = 5;
-        space += COUNT;
-
-        printTree(node->right.get(), space);
-
-        std::cout << std::endl;
-        for (int i = COUNT; i < space; ++i)
-        {
-            std::cout << " ";
-        }
-        std::cout << node->key << "\n";
-
-        printTree(node->left.get(), space);
+        std::cout << " ";
     }
+    std::cout << node->key << "\n";
+
+    printTree(node->left.get(), space);
+}
 ```
 - Replace yourRootMethod() with the method you use to get the root of your AVL tree.
 - Replace NodeType with the actual type of your node.
