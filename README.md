@@ -20,7 +20,7 @@ project/
 This structure ensures that your project files and test directory are organized correctly within your project's root directory.
 
 2. Extract the zip file inside the `test` folder.
-3. Add the following function in the public section of your  `pirates24b1.h` file:
+3. Add the following function in the public section of your  `pirates24b1.h` file: (**Don't forget to delete the public function we added to pirates24b1.h before submission**)
 ```bash
 void print_avl_tree() const
 {
