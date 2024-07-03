@@ -36,7 +36,7 @@ void print() const
         std::cout << "Tree is empty.\n";
         return;
     }
-    printTree(root.get(), 0);
+    printTree(root.yourRootMethod(), 0);
 }
 ```
 ```
@@ -48,16 +48,16 @@ void printTree(Node *node, int space) const
     const int COUNT = 5;
     space += COUNT;
 
-    printTree(node->right.get(), space);
+    printTree(node->yourRightChildMethod(), space);
 
     std::cout << std::endl;
     for (int i = COUNT; i < space; ++i)
     {
         std::cout << " ";
     }
-    std::cout << node->key << "\n";
+    std::cout << node->yourKeyMethod() << "\n";
 
-    printTree(node->left.get(), space);
+    printTree(node->yourLeftChildMethod(), space);
 }
 ```
 - Replace yourRootMethod() with the method you use to get the root of your AVL tree.
