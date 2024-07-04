@@ -21,14 +21,14 @@ This structure ensures that your project files and test directory are organized 
 
 2. Extract the zip file inside the `test` folder.
 3. Add the following function in the public section of your  `pirates24b1.h` file: (**Don't forget to delete the public function we added to pirates24b1.h before submission**)
-```bash
+```cpp
 void print_avl_tree() const
 {
     ships.print();
 }
 ```
 4. In your AVL Tree template, add the following functions to the public section. These functions will handle the printing of the tree: (must )
-```bash
+```cpp
 void print() const
 {
     if (!root)
@@ -39,7 +39,7 @@ void print() const
     printTree(root.yourRootMethod(), 0);
 }
 ```
-```
+```cpp
 void printTree(Node *node, int space) const
 {
     if (!node)
