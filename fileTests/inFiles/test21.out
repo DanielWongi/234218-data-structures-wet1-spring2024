@@ -1,0 +1,31 @@
+add_ship: SUCCESS
+add_ship: SUCCESS
+add_ship: SUCCESS
+add_pirate: SUCCESS
+add_pirate: SUCCESS
+add_pirate: SUCCESS
+add_pirate: SUCCESS
+add_pirate: SUCCESS
+get_richest_pirate: SUCCESS, 4
+get_richest_pirate: FAILURE
+get_richest_pirate: SUCCESS, 5
+treason: SUCCESS
+get_richest_pirate: SUCCESS, 3
+get_richest_pirate: SUCCESS, 4
+get_richest_pirate: SUCCESS, 5
+treason: SUCCESS
+treason: SUCCESS
+get_richest_pirate: SUCCESS, 2
+get_richest_pirate: SUCCESS, 3
+get_richest_pirate: SUCCESS, 5
+treason: SUCCESS
+treason: SUCCESS
+get_richest_pirate: SUCCESS, 1
+get_richest_pirate: SUCCESS, 2
+get_richest_pirate: SUCCESS, 5
+treason: SUCCESS
+treason: SUCCESS
+treason: SUCCESS
+get_richest_pirate: SUCCESS, 5
+get_richest_pirate: SUCCESS, 1
+get_richest_pirate: SUCCESS, 4

@@ -9999,7 +9999,7 @@ add_pirate 9997 1 9997
 add_pirate 9998 1 9998
 add_pirate 9999 1 9999
 add_pirate 10000 1 10000
-add_ship 2 0
+add_ship 2 1
 add_pirate 10001 2 1
 add_pirate 10002 2 2
 add_pirate 10003 2 3
@@ -20005,3 +20005,5 @@ get_treasure 10000
 get_treasure 20000
 get_richest_pirate 1
 get_richest_pirate 2
+get_treasure 1
+get_treasure 10001

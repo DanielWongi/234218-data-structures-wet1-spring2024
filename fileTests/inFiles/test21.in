@@ -1,0 +1,31 @@
+add_ship 1 1
+add_ship 2 2
+add_ship 3 3
+add_pirate 5 3 1
+add_pirate 4 1 1
+add_pirate 3 1 1
+add_pirate 2 1 1
+add_pirate 1 1 1
+get_richest_pirate 1
+get_richest_pirate 2
+get_richest_pirate 3
+treason 1 2
+get_richest_pirate 1
+get_richest_pirate 2
+get_richest_pirate 3
+treason 2 3
+treason 1 2
+get_richest_pirate 1
+get_richest_pirate 2
+get_richest_pirate 3
+treason 2 3
+treason 1 2
+get_richest_pirate 1
+get_richest_pirate 2
+get_richest_pirate 3
+treason 2 3
+treason 1 2
+treason 3 1
+get_richest_pirate 1
+get_richest_pirate 2
+get_richest_pirate 3
