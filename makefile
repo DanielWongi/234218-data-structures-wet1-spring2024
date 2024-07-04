@@ -15,12 +15,15 @@ SRCS += main_test.cpp # Add the test main file explicitly
 OBJS = $(patsubst ../%.cpp,$(OBJ_DIR)/%.o,$(filter ../%.cpp,$(SRCS)))
 OBJS += $(patsubst ./%.cpp,$(OBJ_DIR)/%.o,$(filter ./%.cpp,$(SRCS)))
 
+# Header files
+HDRS = $(wildcard ../*.h ./*.h)
+
 # Ensure directories exist and compile the source files into object files
-$(OBJ_DIR)/%.o: ../%.cpp
+$(OBJ_DIR)/%.o: ../%.cpp $(HDRS)
 	mkdir -p $(OBJ_DIR)
 	$(CXX) $(CXXFLAGS) $(INCLUDES) -c $< -o $@
 
-$(OBJ_DIR)/%.o: ./%.cpp
+$(OBJ_DIR)/%.o: ./%.cpp $(HDRS)
 	mkdir -p $(OBJ_DIR)
 	$(CXX) $(CXXFLAGS) $(INCLUDES) -c $< -o $@
 

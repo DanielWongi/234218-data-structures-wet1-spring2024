@@ -4,6 +4,7 @@
 GREEN='\033[0;32m'
 RED='\033[0;31m'
 BLUE='\033[0;34m'
+PURPLE='\033[0;35m'
 NC='\033[0m' # No Color
 
 # Counter for failed tests and string to hold failed test numbers
@@ -11,12 +12,12 @@ FAILED_TESTS=0
 FAILED_TEST_NUMBERS=""
 
 # Number of tests to run, starting from test number 0
-TESTS_TO_RUN=23
+TESTS_TO_RUN=30
 
 # JSON result file
 JSON_RESULT_FILE="test_results.json"
 
-echo "
+echo -e "${PURPLE}
  _____    ______  _______  ______     ______  _______  ______   _    _   ______ _______  _    _   ______   ______  ______    1
 | | \ \  | |  | |   | |   | |  | |   / |        | |   | |  | \ | |  | | | |       | |   | |  | | | |  | \ | |     / |
 | |  | | | |__| |   | |   | |__| |   '------.   | |   | |__| | | |  | | | |       | |   | |  | | | |__| | | |---- '------.
@@ -25,9 +26,9 @@ echo "
  _   _   _   ______ _______   1   ______   ______   ______  _____  ______   ______    2024
 | | | | | | | |       | |        / |      | |  | \ | |  | \  | |  | |  \ \ | | ____
 | | | | | | | |----   | |        '------. | |__|_/ | |__| |  | |  | |  | | | |  | |
-|_|_|_|_|_/ |_|____   |_|         ____|_/ |_|      |_|  \_\ _|_|_ |_|  |_| |_|__|_|
+|_|_|_|_|_/ |_|____   |_|         ____|_/ |_|      |_|  \_\ _|_|_ |_|  |_| |_|__|_
 
-"
+${NC}"
 
 # Initialize the JSON result file
 echo "{" > "$JSON_RESULT_FILE"
@@ -39,7 +40,7 @@ for ((testNumber=0; testNumber<=TESTS_TO_RUN; testNumber++)); do
     expectedFile="fileTests/outFiles/test${testNumber}.out"
     valgrindLogFile="fileTests/inFiles/test${testNumber}.valgrind_log"
 
-    echo "Running test $testNumber >>>"
+     echo -e "${BLUE}Running test $testNumber >>>${NC}"
 
     # Normalize line endings and trim trailing whitespace for the input file, result file, and the expected file
     dos2unix "$inFile"
@@ -62,6 +63,15 @@ for ((testNumber=0; testNumber<=TESTS_TO_RUN; testNumber++)); do
         echo -e "Test Simulation: ${RED}fail${NC}"
         ((FAILED_TESTS++))
         FAILED_TEST_NUMBERS+="$testNumber \n"
+    fi
+
+        # Check if the test execution time is within the acceptable limit
+    if [ $elapsed -le 15000 ]; then
+        echo -e "Time Complexity (<= 15 sec): ${GREEN}pass${NC},"
+    else
+        echo -e "Time Complexity (<= 15 sec): ${RED}fail${NC}"
+        ((FAILED_TESTS++))
+        FAILED_TEST_NUMBERS+="$testNumber "
     fi
 
     # Run Valgrind to check for memory leaks
@@ -91,6 +101,7 @@ done
 # Close the JSON result file
 echo "}" >> "$JSON_RESULT_FILE"
 
+
 # Final output, showing whether all tests passed or some failed
 if [ $FAILED_TESTS -eq 0 ]; then
     echo -e "${GREEN}
@@ -111,7 +122,7 @@ else
  _   _   _   ______ _______   1   ______   ______   ______  _____  ______   ______    2024
 | | | | | | | |       | |        / |      | |  | \ | |  | \  | |  | |  \ \ | | ____
 | | | | | | | |----   | |        '------. | |__|_/ | |__| |  | |  | |  | | | |  | |
-|_|_|_|_|_/ |_|____   |_|         ____|_/ |_|      |_|  \_\ _|_|_ |_|  |_| |_|__|_|
+|_|_|_|_|_/ |_|____   |_|         ____|_/ |_|      |_|  \_\ _|_|_ |_|  |_| |_|__|_
     "
     echo -e "\n${RED}Failed $FAILED_TESTS tests.${NC}"
     echo -e "Failed tests: \n${FAILED_TEST_NUMBERS}${NC}\n"
