@@ -27,7 +27,7 @@ void print_avl_tree() const
     ships.print();
 }
 ```
-4. In your AVL Tree template, add the following functions to the public section. These functions will handle the printing of the tree: (must )
+4. In your `AVL Tree template`, add the following functions to the public section. These functions will handle the printing of the tree: (must )
 ```cpp
 void print() const
 {
