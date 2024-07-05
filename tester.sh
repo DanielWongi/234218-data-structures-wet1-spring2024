@@ -12,7 +12,7 @@ FAILED_TESTS=0
 FAILED_TEST_NUMBERS=""
 
 # Number of tests to run, starting from test number 0
-TESTS_TO_RUN=30
+TESTS_TO_RUN=31
 
 # JSON result file
 JSON_RESULT_FILE="test_results.json"
@@ -67,9 +67,9 @@ for ((testNumber=0; testNumber<=TESTS_TO_RUN; testNumber++)); do
 
         # Check if the test execution time is within the acceptable limit
     if [ $elapsed -le 15000 ]; then
-        echo -e "Time Complexity (<= 15 sec): ${GREEN}pass${NC},"
+        echo -e "Time Complexity (≤ 15 sec): ${GREEN}pass${NC},"
     else
-        echo -e "Time Complexity (<= 15 sec): ${RED}fail${NC}"
+        echo -e "Time Complexity (≤ 15 sec): ${RED}fail${NC}"
         ((FAILED_TESTS++))
         FAILED_TEST_NUMBERS+="$testNumber "
     fi
