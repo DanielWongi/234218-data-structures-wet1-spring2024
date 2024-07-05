@@ -20045,7 +20045,7 @@ remove_ship: FAILURE
 treason: SUCCESS
 update_pirate_treasure: FAILURE
 treason: SUCCESS
-get_richest_pirate: SUCCESS, 30000
+get_richest_pirate: SUCCESS, 4
 ships_battle: SUCCESS
 treason: SUCCESS
 get_cannons: SUCCESS, 17
@@ -20073,7 +20073,7 @@ treason: SUCCESS
 treason: SUCCESS
 ships_battle: SUCCESS
 update_pirate_treasure: SUCCESS
-get_richest_pirate: SUCCESS, 30000
+get_richest_pirate: SUCCESS, 7
 get_richest_pirate: SUCCESS, 10000
 treason: SUCCESS
 remove_pirate: SUCCESS
@@ -40143,7 +40143,7 @@ update_pirate_treasure: SUCCESS
 get_treasure: SUCCESS, -132031
 treason: SUCCESS
 update_pirate_treasure: SUCCESS
-get_richest_pirate: SUCCESS, 70000
+get_richest_pirate: SUCCESS, 10
 remove_pirate: SUCCESS
 treason: SUCCESS
 remove_ship: FAILURE
@@ -40177,7 +40177,7 @@ remove_pirate: SUCCESS
 update_pirate_treasure: SUCCESS
 treason: SUCCESS
 remove_pirate: SUCCESS
-get_richest_pirate: SUCCESS, 50000
+get_richest_pirate: SUCCESS, 16
 get_treasure: SUCCESS, 92847
 remove_pirate: FAILURE
 remove_pirate: SUCCESS
@@ -40188,7 +40188,7 @@ treason: SUCCESS
 treason: SUCCESS
 get_cannons: SUCCESS, 19
 update_pirate_treasure: FAILURE
-get_richest_pirate: SUCCESS, 50000
+get_richest_pirate: SUCCESS, 16
 get_cannons: SUCCESS, 17
 get_cannons: SUCCESS, 18
 get_treasure: FAILURE
@@ -60232,7 +60232,7 @@ remove_pirate: FAILURE
 treason: SUCCESS
 get_treasure: FAILURE
 treason: SUCCESS
-get_richest_pirate: SUCCESS, 70000
+get_richest_pirate: SUCCESS, 10
 update_pirate_treasure: SUCCESS
 remove_ship: FAILURE
 get_richest_pirate: SUCCESS, 110000
@@ -60241,7 +60241,7 @@ ships_battle: SUCCESS
 get_richest_pirate: SUCCESS, 9997
 remove_ship: FAILURE
 update_pirate_treasure: SUCCESS
-get_richest_pirate: SUCCESS, 70000
+get_richest_pirate: SUCCESS, 10
 get_treasure: SUCCESS, 105906
 update_pirate_treasure: FAILURE
 remove_pirate: SUCCESS
@@ -60257,25 +60257,25 @@ get_treasure: FAILURE
 remove_pirate: SUCCESS
 update_pirate_treasure: SUCCESS
 get_treasure: SUCCESS, 109887
-get_richest_pirate: SUCCESS, 90000
+get_richest_pirate: SUCCESS, 40005
 ships_battle: SUCCESS
 get_cannons: SUCCESS, 19
 treason: SUCCESS
 get_treasure: SUCCESS, -218737
 update_pirate_treasure: SUCCESS
-get_richest_pirate: SUCCESS, 90000
+get_richest_pirate: SUCCESS, 40005
 remove_ship: FAILURE
 get_cannons: SUCCESS, 18
-get_richest_pirate: SUCCESS, 70000
+get_richest_pirate: SUCCESS, 10
 get_treasure: FAILURE
 get_treasure: SUCCESS, 102399
 treason: SUCCESS
 remove_ship: FAILURE
-get_richest_pirate: SUCCESS, 110000
+get_richest_pirate: SUCCESS, 60003
 get_cannons: SUCCESS, 18
 treason: SUCCESS
 get_cannons: SUCCESS, 18
-get_richest_pirate: SUCCESS, 50000
+get_richest_pirate: SUCCESS, 17
 remove_pirate: SUCCESS
 update_pirate_treasure: FAILURE
 update_pirate_treasure: SUCCESS
@@ -80309,13 +80309,13 @@ add_pirate: SUCCESS
 remove_pirate: SUCCESS
 get_cannons: SUCCESS, 18
 ships_battle: SUCCESS
-get_richest_pirate: SUCCESS, 90000
+get_richest_pirate: SUCCESS, 40005
 get_treasure: FAILURE
 treason: SUCCESS
-get_richest_pirate: SUCCESS, 70000
+get_richest_pirate: SUCCESS, 10
 ships_battle: SUCCESS
 get_treasure: FAILURE
-get_richest_pirate: SUCCESS, 50000
+get_richest_pirate: SUCCESS, 17
 update_pirate_treasure: SUCCESS
 remove_ship: FAILURE
 remove_ship: FAILURE
@@ -80323,7 +80323,7 @@ remove_ship: FAILURE
 update_pirate_treasure: SUCCESS
 treason: SUCCESS
 get_treasure: FAILURE
-get_richest_pirate: SUCCESS, 30000
+get_richest_pirate: SUCCESS, 14
 update_pirate_treasure: FAILURE
 get_treasure: SUCCESS, -213414
 get_richest_pirate: SUCCESS, 9997
@@ -80348,14 +80348,14 @@ get_cannons: SUCCESS, 18
 ships_battle: SUCCESS
 ships_battle: SUCCESS
 remove_pirate: SUCCESS
-get_richest_pirate: SUCCESS, 50000
+get_richest_pirate: SUCCESS, 17
 remove_pirate: FAILURE
 remove_ship: FAILURE
 treason: SUCCESS
 treason: SUCCESS
 get_cannons: SUCCESS, 4
 get_cannons: SUCCESS, 17
-get_richest_pirate: SUCCESS, 70000
+get_richest_pirate: SUCCESS, 10
 update_pirate_treasure: SUCCESS
 treason: SUCCESS
 remove_ship: FAILURE
@@ -80377,12 +80377,12 @@ get_treasure: FAILURE
 get_treasure: FAILURE
 get_treasure: SUCCESS, -208104
 ships_battle: SUCCESS
-get_richest_pirate: SUCCESS, 110000
+get_richest_pirate: SUCCESS, 60003
 remove_ship: FAILURE
 treason: SUCCESS
 get_treasure: SUCCESS, -206767
 treason: SUCCESS
-get_richest_pirate: SUCCESS, 50000
+get_richest_pirate: SUCCESS, 17
 get_treasure: SUCCESS, 78280
 get_cannons: SUCCESS, 19
 get_treasure: SUCCESS, -203814
@@ -80398,7 +80398,7 @@ update_pirate_treasure: FAILURE
 remove_pirate: SUCCESS
 get_cannons: SUCCESS, 17
 get_cannons: SUCCESS, 18
-get_richest_pirate: SUCCESS, 110000
+get_richest_pirate: SUCCESS, 60003
 update_pirate_treasure: FAILURE
 treason: SUCCESS
 remove_pirate: SUCCESS
