@@ -77,6 +77,16 @@ chmod +x tester.sh
 ```
 ![Image](https://i.imgur.com/5JMISpB.png)
 
+## Test on Technion CS server - Bug with valgrind
+```bash
+mkdir -p ~/tmp
+```
+```bash
+chmod 700 ~/tmp
+```
+```bash
+export TMPDIR=/tmp
+```
 ## Diagnosing Failed Tests with diff.sh
 If you encounter any failed tests, the diff.sh script is here to help. This utility allows you to compare the expected and actual outputs of a test, providing clarity on what went wrong.
 ```bash
