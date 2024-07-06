@@ -226,3 +226,62 @@ get_treasure 8
 get_treasure 9
 get_treasure 10
 get_treasure 11
+add_ship 3 17
+add_ship 4 6
+add_pirate 21 3 -13
+add_pirate 22 3 -17
+add_pirate 23 3 -17
+add_pirate 24 3 -17
+add_pirate 25 3 -17
+add_pirate 26 3 -17
+add_pirate 27 3 -17
+add_pirate 28 3 -18
+add_pirate 29 4 -13
+add_pirate 30 4 -13
+add_pirate 31 4 -13
+get_richest_pirate 3
+treason 3 4
+ships_battle 3 4
+treason 3 4
+get_richest_pirate 3
+get_treasure 21
+get_treasure 22
+get_treasure 23
+get_treasure 24
+get_treasure 25
+get_treasure 26
+get_treasure 27
+get_treasure 28
+get_treasure 29
+get_treasure 30
+get_treasure 31
+treason 1 4
+treason 3 2
+treason 1 3
+treason 4 2
+get_treasure 1
+get_treasure 2
+get_treasure 3
+get_treasure 4
+get_treasure 5
+get_treasure 6
+get_treasure 7
+get_treasure 8
+get_treasure 9
+get_treasure 10
+get_treasure 11
+get_treasure 21
+get_treasure 22
+get_treasure 23
+get_treasure 24
+get_treasure 25
+get_treasure 26
+get_treasure 27
+get_treasure 28
+get_treasure 29
+get_treasure 30
+get_treasure 31
+get_richest_pirate 1
+get_richest_pirate 2
+get_richest_pirate 3
+get_richest_pirate 4

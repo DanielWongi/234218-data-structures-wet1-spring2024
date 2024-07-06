@@ -226,3 +226,62 @@ get_treasure: SUCCESS, 17
 get_treasure: SUCCESS, -12
 get_treasure: SUCCESS, -11
 get_treasure: SUCCESS, -10
+add_ship: SUCCESS
+add_ship: SUCCESS
+add_pirate: SUCCESS
+add_pirate: SUCCESS
+add_pirate: SUCCESS
+add_pirate: SUCCESS
+add_pirate: SUCCESS
+add_pirate: SUCCESS
+add_pirate: SUCCESS
+add_pirate: SUCCESS
+add_pirate: SUCCESS
+add_pirate: SUCCESS
+add_pirate: SUCCESS
+get_richest_pirate: SUCCESS, 21
+treason: SUCCESS
+ships_battle: SUCCESS
+treason: SUCCESS
+get_richest_pirate: SUCCESS, 27
+get_treasure: SUCCESS, -20
+get_treasure: SUCCESS, -13
+get_treasure: SUCCESS, -13
+get_treasure: SUCCESS, -13
+get_treasure: SUCCESS, -13
+get_treasure: SUCCESS, -13
+get_treasure: SUCCESS, -13
+get_treasure: SUCCESS, -14
+get_treasure: SUCCESS, -20
+get_treasure: SUCCESS, -20
+get_treasure: SUCCESS, -20
+treason: SUCCESS
+treason: SUCCESS
+treason: SUCCESS
+treason: SUCCESS
+get_treasure: SUCCESS, -12
+get_treasure: SUCCESS, 0
+get_treasure: SUCCESS, 12
+get_treasure: SUCCESS, 13
+get_treasure: SUCCESS, 14
+get_treasure: SUCCESS, 15
+get_treasure: SUCCESS, 16
+get_treasure: SUCCESS, 17
+get_treasure: SUCCESS, -12
+get_treasure: SUCCESS, -11
+get_treasure: SUCCESS, -10
+get_treasure: SUCCESS, -20
+get_treasure: SUCCESS, -13
+get_treasure: SUCCESS, -13
+get_treasure: SUCCESS, -13
+get_treasure: SUCCESS, -13
+get_treasure: SUCCESS, -13
+get_treasure: SUCCESS, -13
+get_treasure: SUCCESS, -14
+get_treasure: SUCCESS, -20
+get_treasure: SUCCESS, -20
+get_treasure: SUCCESS, -20
+get_richest_pirate: SUCCESS, 8
+get_richest_pirate: SUCCESS, 23
+get_richest_pirate: SUCCESS, 10
+get_richest_pirate: SUCCESS, 9
