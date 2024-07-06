@@ -78,6 +78,7 @@ chmod +x tester.sh
 ![Image](https://i.imgur.com/5JMISpB.png)
 
 ## Test on Technion CS server - Bug with valgrind
+Navigate to the `test` directory and execute the 3 commands:
 ```bash
 mkdir -p ~/tmp
 ```
