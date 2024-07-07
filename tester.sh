@@ -12,7 +12,7 @@ FAILED_TESTS=0
 FAILED_TEST_NUMBERS=""
 
 # Number of tests to run, starting from test number 0
-TESTS_TO_RUN=31
+TESTS_TO_RUN=32
 
 # JSON result file
 JSON_RESULT_FILE="test_results.json"
