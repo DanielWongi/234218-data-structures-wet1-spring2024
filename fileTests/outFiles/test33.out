@@ -1,0 +1,11 @@
+add_ship: SUCCESS
+add_ship: SUCCESS
+add_pirate: SUCCESS
+add_pirate: SUCCESS
+add_pirate: SUCCESS
+ships_battle: SUCCESS
+add_pirate: SUCCESS
+get_treasure: SUCCESS, 2
+get_treasure: SUCCESS, -1
+get_treasure: SUCCESS, 2
+get_treasure: SUCCESS, 0
